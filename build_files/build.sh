@@ -11,10 +11,12 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y papirus-icon-theme \
-ibus-rime \
-podman-docker podlet 
+    ibus-rime librime-lua \
+    podman-docker podlet kubernetes1.35-client k9s helm
 
 # Use a COPR Example:
 #
 dnf5 -y copr enable scottames/ghostty
 dnf5 -y install ghostty
+
+dnf5 clean all
