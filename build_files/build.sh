@@ -14,6 +14,4 @@ dnf5 -y install ghostty
 
 dnf5 clean all
 rm -rf /tmp/*
-rm -rf /var
-mkdir -p /var
 bootc container lint
