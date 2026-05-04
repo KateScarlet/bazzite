@@ -3,7 +3,9 @@
 set -ouex pipefail
 
 dnf5  --setopt=install_weak_deps=False install -y \
-    android-tools \
+    android-tools bcc bpftop bpftrace ccache git-subtree git-lfs \
+    rclone \
+    waypipe \
     papirus-icon-theme \
     ibus-rime librime-lua \
     jetbrains-mono-fonts \
