@@ -12,7 +12,6 @@ dnf5  --setopt=install_weak_deps=False install -y \
     ibus-rime librime-lua \
     jetbrains-mono-fonts-all \
     podman-docker containerd \
-    qemu qemu-kvm libvirt libvirt-nss virt-manager edk2-ovmf guestfs-tools \
     cockpit-machines cockpit-ostree \
     incus incus-agent
 
